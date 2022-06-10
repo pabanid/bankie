@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+body{
+background-image:url(lily1.png);
+background-size:cover;
+}
+ul{
+margin:0px;
+padding:0px;
+list-style:none;
+float:right;
+}
+marquee {
+width:100%;
+height:25;
+background-color:Goldenrod;
+scrollamount:20;
+color:black;
+-webkit-text-stroke :.5px saddlebrown;
+}
+ul li{
+float:left;
+width:100px;
+height:48px;
+background-color:#000;
+opacity:.7;
+line-height:48px;
+text-align:center;
+font-size:15px;
+
+}
+ul li a{
+color:#FFF;
+display:block;
+text-decoration:none;
+}
+ul li a:hover{
+background-color:#f00;
+}
+ul li ul li{
+display:none;
+font-size:12px;
+}
+ul li:hover ul li{
+display:block;
+}
+h1{
+	font-size: 70px;
+	margin-left:20px;
+	-webkit-text-stroke:1px DarkGoldenrod;
+	text-shadow:3px 3px 2px DarkGoldenrod;
+}
+div{
+	margin-top:15px;
+}
